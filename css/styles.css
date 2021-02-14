@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.15em;
+}
+
+.float-l {
+  position: absolute;
+  width: 5%;
+  height: 175%;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+
+}
+
+.float-r {
+  position: absolute;
+  right: 0;
+  width: 5%;
+  height: 175%;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+
+}
+
+.skill1 {
+  width: 100px;
+  float: left;
+  padding-right:30px;
+}
+
+.skill2 {
+  width: 100px;
+  float: left;
+  padding-right:30px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 30px auto 20px auto;
+}
+
+.profile p {
+  margin: 0 auto 0 auto;
+  position: relative;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-row  {
+  margin: 50px auto 0 auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  height: 100px;
+  width: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  height: 100px;
+  width: auto;
+}
+
+.profile:nth-of-type(1) img {
+  margin-top: 50px;
+  width: 150px;
+}
+
+p {
+  /* color: #ff7e67; */
+  color: #393e46;
+  line-height: 35px;
+}
+
+a {
+  color: #c39e5c;
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color:red;
+  text-decoration:underline;
+}
+
+sadasd
+h1 {
+  /* ไม่ center ละ */
+  /* margin: 0;
+  width: 20%; */
+  /* อยาก center แบบfix width ต้องทำงี้ */
+  /* margin: 0 auto 0 auto;
+  width:30%; */
+  font-family: 'Parisienne', cursive;
+  position: relative;
+  margin-top: 40px;
+  padding-top: 70px;
+  color: #fb743e;
+  font-size:5.5rem;
+}
+
+.cost-engineer {
+  font-size:2.5rem;
+  font-weight: lighter;
+  color: #f2a154;
+}
+
+h2, h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #f2a154;
+}
+
+hr {
+    border: 8px dotted grey;
+    border-style: none none dotted;
+    /* color: #fff;
+    background-color: #fff; */
+    width: 50px;
+    margin: 50px auto 50px auto;
+}
+
+
+/* Put at middle */
+/* .wal-logo {
+  position: absolute;
+  width:75px;
+  height: auto;
+  left:0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.top-container {
+  margin: 0 0 0 0;
+  position: relative;
+  padding-top: 125px;
+  /* background-color: #eeeeee; */
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #FBDA61;
+  height: 160px;
+}
